@@ -59,7 +59,7 @@ def main():
                 employee = Employee(name, salary)
                 department.add_employee(employee)
             except ValueError:
-                print("Invalid input. Salary must be a number.")
+                print("Invalid input. Salary must be a number")
 
         elif choice == '2':
             department.display_all_employees()

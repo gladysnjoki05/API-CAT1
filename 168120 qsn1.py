@@ -7,7 +7,7 @@ class Book:
     def mark_as_borrowed(self):
         if not self.is_borrowed:
             self.is_borrowed = True
-            print(f"'{self.title}' by {self.author} has been marked as borrowed.")
+            print(f"'{self.title}' by {self.author} has been marked as borrowed")
         else:
             print(f"'{self.title}' is already borrowed.")
 

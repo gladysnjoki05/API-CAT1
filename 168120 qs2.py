@@ -9,7 +9,7 @@ class Student:
 
     def add_assignment(self, assignment_name, grade):
         self.assignments[assignment_name] = grade
-        print(f"Assignment '{assignment_name}' with grade {grade} added for {self.name}.")
+        print(f"Assignment '{assignment_name}' with grade {grade} added for {self.name}")
 
     def display_grades(self):
         if self.assignments:
